@@ -1,0 +1,63 @@
+schema: hugoblox/author/v1
+slug: me
+avatar: "avatar.jpg"  # ← ★この1行を追加します！
+is_owner: true
+name:
+  display: "日笠山 諒亮"
+  given: ひがさやま りょうすけ
+  family: 
+  alternate: ''  # Example: 王伟
+  pronunciation: ''  # Example: Wáng Wěi
+  pronouns: he/him
+postnominals:
+  - 博士前期課程
+
+status:
+  icon: "♨️"
+role: 3Dモーション研究者
+bio: |
+  主に3Dアニメーションにおけるモーション結合に関する研究を行っています。
+  <br>mail:rhigasayama (at) acm.org
+
+affiliations:
+  - name: 拓殖大学
+    url: https://www.takushoku-u.ac.jp/
+
+
+  
+interests:
+  - 3Dモデル
+  - アニメーション
+  - 3Dモーション
+  - AI開発
+
+education:
+  - degree: 工学研究科　　博士後期課程　(進学予定)
+    institution: 拓殖大学大学院
+    start: 2027年4月1日 入学予定
+    end: 2030年3月 卒業予定
+
+  - degree: 工学研究科　　　博士前期課程
+    institution: 拓殖大学大学院
+    start: 2025年4月1日 入学
+    end: 2027年3月 卒業予定
+
+  - degree: 工学部　　　　情報工学科
+    institution: 拓殖大学
+    start: 2021年4月1日 入学
+    end: 2025年3月22日 卒業
+
+languages:
+  - name: English
+    level: 5
+    label: Native
+  - name: Spanish
+    level: 4
+    label: Fluent
+
+awards:
+  - title: Best Paper Award
+    awarder: NeurIPS
+    date: "2022-12-01"
+    summary: Awarded for groundbreaking work on efficient training of large models.
+    icon: hero/trophy

@@ -13,7 +13,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "Your Name"
+    name: "Higasayama's portfolio"
     # Legal entity for copyright notices (defaults to name if not set)
     organization: ""
     # Schema.org type for structured data
@@ -88,7 +88,7 @@ hugoblox:
     # Menu alignment
     align: center # left | center | right
     # Feature toggles
-    search: true
+    #search: true
     theme_toggle: true
     theme_picker: true
     language_switcher: true
@@ -171,7 +171,7 @@ hugoblox:
   # SEARCH
   # Site search
   # ────────────────────────────────────────────────────────────────────────────
-  search:
+  #search:
     enable: true
     # Trending/suggested search terms
     suggestions: []

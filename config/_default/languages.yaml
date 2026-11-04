@@ -1,22 +1,15 @@
 # Languages
-#   Create a section for each of your site's languages.
-#   Documentation: https://docs.hugoblox.com/reference/language/
 
-# Default language
+# 1つ目の言語（英語）
 en:
+  languageName: English
   locale: en-us
-  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/en
+  weight: 1
 
-# Uncomment the lines below to configure your website in a second language.
-#zh:
-#  locale: zh-Hans
-#  contentDir: content/zh
-#  title: Chinese website title...
-#  params:
-#    description: Site description in Chinese...
-#  menu:
-#    main:
-#      - name: 传
-#        url: '#about'
-#        weight: 1
+# 2つ目の言語（日本語）
+ja:
+  languageName: 日本語
+  locale: ja
+  weight: 2
+  # もし日本語版のタブの名前を個別に変えたい場合は、下の # を消して名前を入力します
+  # title: "〇〇のポートフォリオ"
